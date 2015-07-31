@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="net.andchat.donate">
+    <supports-screens/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <application android:allowBackup="true" android:hardwareAccelerated="true" android:icon="@drawable/andchat" android:label="@string/app_name" android:logo="@drawable/andchat_logo" android:name=".IRCApp" android:theme="@style/PlatformSpecificTheme">
+        <activity android:label="@string/app_name" android:name=".Activities.Main">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER"/>
+            </intent-filter>
+            <meta-data android:name="com.sec.minimode.icon.portrait.normal" android:resource="@drawable/andchat_samsung_multiwindow"/>
+            <meta-data android:name="com.sec.minimode.icon.landscape.normal" android:resource="@drawable/andchat_samsung_multiwindow"/>
+        </activity>
+        <activity android:name=".Activities.LegacyUI" android:theme="@style/ChatWindowTheme" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:name=".Activities.CurrentUI" android:theme="@style/ChatWindowTheme" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:label="@string/IgnoreListActivity_title" android:name=".Activities.IgnoresActivity" android:theme="@style/PlatformSpecificDialogTheme"/>
+        <activity android:label="@string/AuthPickerActivity_title" android:name=".Activities.AuthPicker" android:theme="@style/PlatformSpecificDialogTheme" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:name=".Activities.CharsetPicker"/>
+        <activity android:name=".Activities.CopyTextActivity" android:windowSoftInputMode="stateUnchanged"/>
+        <activity android:name=".Activities.ServerDetailsActivity" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:name=".Activities.UserListActivity" android:windowSoftInputMode="stateHidden|adjustResize"/>
+        <activity android:name=".Activities.PasswordActivity"/>
+        <service android:name=".Backend.IRCService"/>
+        <activity android:name=".Activities.Preferences"/>
+        <activity android:exported="false" android:name=".Activities.Preferences$ActionBasedPreferenceLoader">
+            <intent-filter>
+                <action android:name="net.andchat.donate.Prefs.Messages_Rooms"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="net.andchat.donate.Prefs.DEBUG"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="net.andchat.donate.Prefs.Interface"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="net.andchat.donate.Prefs.Notifications"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="net.andchat.donate.Prefs.Connection"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name=".Activities.Preferences$ChatLogs">
+            <intent-filter>
+                <action android:name="net.andchat.donate.Prefs"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name=".Activities.Preferences$DataBackup">
+            <intent-filter>
+                <action android:name="net.andchat.donate.Prefs"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name=".Activities.Preferences$DataSecurity">
+            <intent-filter>
+                <action android:name="net.andchat.donate.Prefs"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name=".Activities.Preferences$ServerProfiles">
+            <intent-filter>
+                <action android:name="net.andchat.donate.Prefs"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:exported="false" android:name=".Activities.Preferences$About">
+            <intent-filter>
+                <action android:name="net.andchat.donate.Prefs"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.initialSetup.Step1"/>
+        <activity android:name=".Activities.initialSetup.Step2" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".Activities.initialSetup.Step3"/>
+        <activity android:name=".Activities.initialSetup.Step4"/>
+        <uses-library android:name="com.sec.android.app.multiwindow" android:required="false"/>
+        <meta-data android:name="com.sec.android.support.multiwindow" android:value="true"/>
+        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_W" android:value="632.0dip"/>
+        <meta-data android:name="com.sec.android.multiwindow.DEFAULT_SIZE_H" android:value="598.0dip"/>
+        <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_W" android:value="632.0dip"/>
+        <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H" android:value="598.0dip"/>
+    </application>
+</manifest>

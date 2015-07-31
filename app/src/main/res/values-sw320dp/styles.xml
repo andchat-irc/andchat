@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Search.PlatformSpecific" parent="@style/Search">
+        <item name="android:layout_gravity">right|center</item>
+        <item name="android:paddingRight">2.0dip</item>
+    </style>
+    <style name="MessageInput.PlatformSpecific" parent="@style/MessageInput">
+        <item name="android:paddingRight">32.0dip</item>
+    </style>
+    <style name="GalleryStyle.PlatformSpecific" parent="@style/GalleryStyle">
+        <item name="android:paddingTop">@dimen/divider_margin_amount</item>
+    </style>
+</resources>

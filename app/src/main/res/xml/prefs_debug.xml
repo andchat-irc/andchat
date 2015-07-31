@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="Log raw messages" android:key="@string/pref_log_raw_messages" android:summary="Logs messages to file before parsing" android:defaultValue="false" />
+    <CheckBoxPreference android:title="Log unparseable messages" android:key="@string/pref_log_unparseable" android:summary="Logs unparseable messages to file separately" android:defaultValue="false" />
+    <CheckBoxPreference android:title="Show ignored messages" android:key="@string/pref_show_ignored_messages" android:summary="Adds [IGNORED] to messages normally ignored" android:defaultValue="false" />
+</PreferenceScreen>

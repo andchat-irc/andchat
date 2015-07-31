@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Preferred nicknames">
+        <EditTextPreference android:singleLine="true" android:title="@string/pref_title_preferred_nick_1" android:key="@string/pref_nick_pref_1" />
+        <EditTextPreference android:singleLine="true" android:title="@string/pref_title_preferred_nick_2" android:key="@string/pref_nick_pref_2" android:summary="@string/pref_summary_preferred_nick_2" />
+        <EditTextPreference android:singleLine="true" android:title="@string/pref_title_preferred_nick_3" android:key="@string/pref_nick_pref_3" android:summary="@string/pref_summary_preferred_nick_3" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="Other">
+        <EditTextPreference android:singleLine="true" android:title="@string/pref_title_preferred_username" android:key="@string/pref_username" />
+        <EditTextPreference android:singleLine="true" android:title="@string/pref_title_preferred_realname" android:key="@string/pref_real_name" />
+        <CheckBoxPreference android:title="@string/pref_title_preferred_ssl" android:key="@string/pref_use_ssl" android:summary="@string/pref_summary_preferred_ssl" />
+        <Preference android:key="@string/pref_default_encoding" android:summary="@string/pref_summary_preferred_encoding" />
+    </PreferenceCategory>
+    <Preference android:title="@string/pref_title_apply_preferred" android:key="@string/pref_apply_to_all" android:summary="@string/pref_summary_apply_preferred" />
+</PreferenceScreen>

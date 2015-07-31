@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/instructions" android:text="@string/wizard_question_add_servers" style="@style/SetUpInstructions" />
+    <include layout="@layout/step_activity_buttons" />
+</RelativeLayout>

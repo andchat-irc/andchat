@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="autoshow_userlist">true</bool>
+    <bool name="autoshow_channel_list">true</bool>
+</resources>

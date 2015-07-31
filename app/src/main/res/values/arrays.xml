@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="apply_defaults_to">
+        <item>Nick 1</item>
+        <item>Nick 2</item>
+        <item>Nick 3</item>
+        <item>Real Name</item>
+        <item>Username</item>
+        <item>Encoding</item>
+    </string-array>
+    <string-array name="filter_options">
+        <item>No Filter</item>
+        <item>Active Servers</item>
+        <item>Inactive Servers</item>
+    </string-array>
+    <string-array name="separate_logs_by_entries">
+        <item>Year and Month</item>
+        <item>Year, Month and Day</item>
+    </string-array>
+    <string-array name="separate_logs_by_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="notification_events">
+        <item>Highlight</item>
+        <item>Private Message</item>
+        <item>Channel Notice</item>
+        <item>Direct Notice</item>
+        <item>Connection Error</item>
+    </string-array>
+    <string-array name="notification_events_values">
+        <item>HI</item>
+        <item>PM</item>
+        <item>CN</item>
+        <item>SN</item>
+        <item>DC</item>
+    </string-array>
+    <string-array name="volume_modes_string">
+        <item>Switch servers (Always)</item>
+        <item>Switch servers (When no music playing)</item>
+        <item>Scroll typing history</item>
+        <item>No action</item>
+    </string-array>
+    <string-array name="volume_modes_values">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="user_ignore_types">
+        <item>Channel Messages</item>
+        <item>Private Messages</item>
+        <item>Notices</item>
+        <item>CTCP Requests</item>
+    </string-array>
+    <string-array name="fonts">
+        <item>Sans Serif (Default)</item>
+        <item>Monospace</item>
+        <item>Serif</item>
+    </string-array>
+    <integer-array name="CHANNEL_SWITCHER_msg_other">
+        <item>180</item>
+        <item>95</item>
+        <item>54</item>
+    </integer-array>
+    <integer-array name="CHANNEL_SWITCHER_msg_hilight">
+        <item>0</item>
+        <item>204</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="CHANNEL_SWITCHER_msg_msg">
+        <item>51</item>
+        <item>181</item>
+        <item>229</item>
+    </integer-array>
+    <integer-array name="TAB_msg_other">
+        <item>180</item>
+        <item>95</item>
+        <item>54</item>
+    </integer-array>
+    <integer-array name="TAB_msg_msg">
+        <item>0</item>
+        <item>1</item>
+        <item>238</item>
+    </integer-array>
+    <integer-array name="TAB_msg_hilight">
+        <item>0</item>
+        <item>204</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="ACTION_myself">
+        <item>59</item>
+        <item>189</item>
+        <item>213</item>
+    </integer-array>
+    <integer-array name="nick_dashes_self">
+        <item>59</item>
+        <item>189</item>
+        <item>213</item>
+    </integer-array>
+    <integer-array name="nick_arrows_self">
+        <item>59</item>
+        <item>189</item>
+        <item>213</item>
+    </integer-array>
+    <integer-array name="nick_arrows_other">
+        <item>120</item>
+        <item>120</item>
+        <item>120</item>
+    </integer-array>
+    <integer-array name="PRIVMSG_nick_hilight">
+        <item>0</item>
+        <item>255</item>
+        <item>0</item>
+    </integer-array>
+    <integer-array name="TOPIC_changed">
+        <item>253</item>
+        <item>255</item>
+        <item>137</item>
+    </integer-array>
+    <integer-array name="TOPIC_current">
+        <item>253</item>
+        <item>255</item>
+        <item>137</item>
+    </integer-array>
+    <integer-array name="MODE_chan_modes">
+        <item>203</item>
+        <item>86</item>
+        <item>203</item>
+    </integer-array>
+    <integer-array name="INFO_chan_create_time">
+        <item>203</item>
+        <item>86</item>
+        <item>203</item>
+    </integer-array>
+    <integer-array name="nick_dashes_other">
+        <item>120</item>
+        <item>120</item>
+        <item>120</item>
+    </integer-array>
+    <integer-array name="NOTICE_message">
+        <item>59</item>
+        <item>189</item>
+        <item>213</item>
+    </integer-array>
+    <integer-array name="INVITE_recv">
+        <item>88</item>
+        <item>179</item>
+        <item>252</item>
+    </integer-array>
+    <integer-array name="INVITE_sent">
+        <item>59</item>
+        <item>189</item>
+        <item>213</item>
+    </integer-array>
+    <integer-array name="MODE_channel">
+        <item>55</item>
+        <item>187</item>
+        <item>187</item>
+    </integer-array>
+    <integer-array name="JOIN">
+        <item>88</item>
+        <item>179</item>
+        <item>252</item>
+    </integer-array>
+    <integer-array name="PART">
+        <item>180</item>
+        <item>95</item>
+        <item>54</item>
+    </integer-array>
+    <integer-array name="KICK_got_kicked">
+        <item>221</item>
+        <item>87</item>
+        <item>87</item>
+    </integer-array>
+    <integer-array name="KICK_rejoining">
+        <item>242</item>
+        <item>152</item>
+        <item>69</item>
+    </integer-array>
+    <integer-array name="KICK_you_kicked">
+        <item>221</item>
+        <item>87</item>
+        <item>87</item>
+    </integer-array>
+    <integer-array name="KICK_someone_else_kicked">
+        <item>231</item>
+        <item>131</item>
+        <item>131</item>
+    </integer-array>
+    <integer-array name="QUIT">
+        <item>231</item>
+        <item>137</item>
+        <item>137</item>
+    </integer-array>
+    <integer-array name="NICK_changed_self">
+        <item>192</item>
+        <item>112</item>
+        <item>102</item>
+    </integer-array>
+    <integer-array name="NICK_changed_other">
+        <item>192</item>
+        <item>112</item>
+        <item>102</item>
+    </integer-array>
+    <integer-array name="CTCP_recv">
+        <item>59</item>
+        <item>189</item>
+        <item>213</item>
+    </integer-array>
+    <integer-array name="NAMES_list_of_names">
+        <item>203</item>
+        <item>86</item>
+        <item>203</item>
+    </integer-array>
+    <integer-array name="INFO_reconnecting_connectivity_change">
+        <item>231</item>
+        <item>137</item>
+        <item>137</item>
+    </integer-array>
+    <integer-array name="INFO_disconnected">
+        <item>231</item>
+        <item>137</item>
+        <item>137</item>
+    </integer-array>
+    <integer-array name="KILL_got_killed">
+        <item>231</item>
+        <item>137</item>
+        <item>137</item>
+    </integer-array>
+    <integer-array name="INFO_generic_message">
+        <item>242</item>
+        <item>152</item>
+        <item>69</item>
+    </integer-array>
+    <integer-array name="INFO_cert_info_header">
+        <item>242</item>
+        <item>152</item>
+        <item>69</item>
+    </integer-array>
+    <integer-array name="INFO_cert_expired">
+        <item>231</item>
+        <item>137</item>
+        <item>137</item>
+    </integer-array>
+    <integer-array name="INFO_cert_not_yet_valid">
+        <item>231</item>
+        <item>137</item>
+        <item>137</item>
+    </integer-array>
+    <integer-array name="timestamp_brackets">
+        <item>59</item>
+        <item>189</item>
+        <item>213</item>
+    </integer-array>
+    <integer-array name="INFO_pm_start">
+        <item>88</item>
+        <item>179</item>
+        <item>252</item>
+    </integer-array>
+</resources>

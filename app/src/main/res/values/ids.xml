@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="overflowitemid" />
+    <item type="id" name="hideable_ll_container" />
+    <item type="id" name="set_up_header" />
+    <item type="id" name="set_up_instructions" />
+    <item type="id" name="listrow" />
+    <item type="id" name="pm" />
+    <item type="id" name="whois" />
+    <item type="id" name="op" />
+    <item type="id" name="voice" />
+    <item type="id" name="kick" />
+    <item type="id" name="ban" />
+    <item type="id" name="deop" />
+    <item type="id" name="devoice" />
+    <item type="id" name="hop" />
+    <item type="id" name="dehop" />
+    <item type="id" name="kickban" />
+    <item type="id" name="action_bar_content_divider" />
+    <item type="id" name="menu_help" />
+    <item type="id" name="actionbar">false</item>
+    <item type="id" name="stub">false</item>
+    <item type="id" name="iv_icon">false</item>
+    <item type="id" name="tv_title">false</item>
+    <item type="id" name="screen">false</item>
+    <item type="id" name="actionbar_home">false</item>
+    <item type="id" name="actionbar_home_logo">false</item>
+    <item type="id" name="actionbar_home_bg">false</item>
+    <item type="id" name="actionbar_home_btn">false</item>
+    <item type="id" name="actionbar_home_is_back">false</item>
+    <item type="id" name="actionbar_actions">false</item>
+    <item type="id" name="actionbar_progress">false</item>
+    <item type="id" name="actionbar_title">false</item>
+    <item type="id" name="actionbar_item">false</item>
+    <item type="id" name="root">false</item>
+    <item type="id" name="gallery">false</item>
+    <item type="id" name="space">false</item>
+    <item type="id" name="middle_content">false</item>
+    <item type="id" name="serverlistWrapper">false</item>
+    <item type="id" name="channelListToggle">false</item>
+    <item type="id" name="messages_listview">false</item>
+    <item type="id" name="userlistToggle">false</item>
+    <item type="id" name="userListPlaceHolder">false</item>
+    <item type="id" name="bottom_content">false</item>
+    <item type="id" name="arrow_left">false</item>
+    <item type="id" name="status">false</item>
+    <item type="id" name="et">false</item>
+    <item type="id" name="search">false</item>
+    <item type="id" name="send">false</item>
+    <item type="id" name="arrow_right">false</item>
+    <item type="id" name="suggest_sb">false</item>
+    <item type="id" name="remove_formatting">false</item>
+    <item type="id" name="ignore_close">false</item>
+    <item type="id" name="ignore_help">false</item>
+    <item type="id" name="header">false</item>
+    <item type="id" name="pass1">false</item>
+    <item type="id" name="pass2">false</item>
+    <item type="id" name="passwordCheckbox">false</item>
+    <item type="id" name="passwordEntry">false</item>
+    <item type="id" name="nickservCheckbox">false</item>
+    <item type="id" name="nickservPassword">false</item>
+    <item type="id" name="saslCheckbox">false</item>
+    <item type="id" name="saslUsername">false</item>
+    <item type="id" name="saslPassword">false</item>
+    <item type="id" name="label">false</item>
+    <item type="id" name="addr">false</item>
+    <item type="id" name="port">false</item>
+    <item type="id" name="ssl">false</item>
+    <item type="id" name="nick1">false</item>
+    <item type="id" name="nick2">false</item>
+    <item type="id" name="nick3">false</item>
+    <item type="id" name="username">false</item>
+    <item type="id" name="realname">false</item>
+    <item type="id" name="autojoin">false</item>
+    <item type="id" name="autorun">false</item>
+    <item type="id" name="serv_logs_label">false</item>
+    <item type="id" name="logmessages">false</item>
+    <item type="id" name="enable_logging">false</item>
+    <item type="id" name="authentication">false</item>
+    <item type="id" name="encoding">false</item>
+    <item type="id" name="instructions">false</item>
+    <item type="id" name="userListRL">false</item>
+    <item type="id" name="userListACTV">false</item>
+    <item type="id" name="serverlistFragment">false</item>
+    <item type="id" name="channel_list_size_sample">false</item>
+    <item type="id" name="channel_list_size_seeker">false</item>
+    <item type="id" name="channel_list_font_spinner">false</item>
+    <item type="id" name="file_chooser_ok">false</item>
+    <item type="id" name="file_chooser_choose">false</item>
+    <item type="id" name="file_chooser_cancel">false</item>
+    <item type="id" name="file_chooser_location">false</item>
+    <item type="id" name="message_size_sample">false</item>
+    <item type="id" name="message_size_seeker">false</item>
+    <item type="id" name="messages_font_spinner">false</item>
+    <item type="id" name="input_size_sample">false</item>
+    <item type="id" name="input_size_seeker">false</item>
+    <item type="id" name="input_font_spinner">false</item>
+    <item type="id" name="text">false</item>
+    <item type="id" name="add">false</item>
+    <item type="id" name="ignore_tv">false</item>
+    <item type="id" name="ignore_edit">false</item>
+    <item type="id" name="ignore_delete">false</item>
+    <item type="id" name="more">false</item>
+    <item type="id" name="img">false</item>
+    <item type="id" name="progressi">false</item>
+    <item type="id" name="ok">false</item>
+    <item type="id" name="cancel">false</item>
+    <item type="id" name="scroller">false</item>
+    <item type="id" name="tracks">false</item>
+    <item type="id" name="qa_arrow_up">false</item>
+    <item type="id" name="qa_arrow_down">false</item>
+    <item type="id" name="icon">false</item>
+    <item type="id" name="runningmessage">false</item>
+    <item type="id" name="statusBarMessage">false</item>
+    <item type="id" name="title">false</item>
+    <item type="id" name="prevStep">false</item>
+    <item type="id" name="skipStep">false</item>
+    <item type="id" name="nextStep">false</item>
+    <item type="id" name="userlistFragment">false</item>
+    <item type="id" name="userlist_size_sample">false</item>
+    <item type="id" name="userlist_size_seeker">false</item>
+    <item type="id" name="userlist_font_spinner">false</item>
+    <item type="id" name="menu_cp_search">false</item>
+    <item type="id" name="menu_yes">false</item>
+    <item type="id" name="menu_password_cancel">false</item>
+    <item type="id" name="menu_password_ok">false</item>
+    <item type="id" name="menu_cw_stop_reconnect">false</item>
+    <item type="id" name="menu_cw_connect">false</item>
+    <item type="id" name="menu_cw_userlist">false</item>
+    <item type="id" name="menu_ignore_list">false</item>
+    <item type="id" name="menu_copy_text">false</item>
+    <item type="id" name="menu_settings">false</item>
+    <item type="id" name="menu_new_server">false</item>
+    <item type="id" name="menu_filter">false</item>
+    <item type="id" name="menu_exit">false</item>
+    <item type="id" name="menu_cancel_add_server">false</item>
+    <item type="id" name="menu_save_server">false</item>
+    <item type="id" name="menu_tab_clear">false</item>
+    <item type="id" name="menu_tab_close">false</item>
+    <item type="id" name="add_user">false</item>
+    <item type="id" name="ignore">false</item>
+</resources>

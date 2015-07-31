@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ActionBar">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@drawable/actionbar_background</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">@dimen/actionbar_height</item>
+    </style>
+    <style name="ActionBarItem">
+        <item name="android:padding">5.0dip</item>
+        <item name="android:layout_width">@dimen/actionbar_item_width</item>
+        <item name="android:layout_height">@dimen/actionbar_height</item>
+        <item name="android:layout_marginLeft">1.0px</item>
+    </style>
+    <style name="ActionBarHomeItem" parent="@style/ActionBarItem">
+        <item name="android:layout_marginLeft">0.0px</item>
+        <item name="android:layout_marginRight">1.0px</item>
+    </style>
+    <style name="ActionBarHomeLogo">
+        <item name="android:layout_marginLeft">0.0px</item>
+        <item name="android:layout_marginRight">1.0px</item>
+    </style>
+    <style name="ActionBarProgressBar" parent="@android:style/Widget.ProgressBar.Small" />
+    <style name="Animations" />
+    <style name="Animations.PopDownMenu" parent="@style/Animations" />
+    <style name="Animations.PopDownMenu.Center" parent="@style/Animations.PopDownMenu">
+        <item name="android:windowEnterAnimation">@anim/grow_from_top</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_bottom</item>
+    </style>
+    <style name="Animations.PopDownMenu.Left" parent="@style/Animations.PopDownMenu">
+        <item name="android:windowEnterAnimation">@anim/grow_from_topleft_to_bottomright</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_bottomright_to_topleft</item>
+    </style>
+    <style name="Animations.PopDownMenu.Right" parent="@style/Animations.PopDownMenu">
+        <item name="android:windowEnterAnimation">@anim/grow_from_topright_to_bottomleft</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_bottomleft_to_topright</item>
+    </style>
+    <style name="Animations.PopUpMenu" parent="@style/Animations" />
+    <style name="Animations.PopUpMenu.Center" parent="@style/Animations.PopUpMenu">
+        <item name="android:windowEnterAnimation">@anim/grow_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_top</item>
+    </style>
+    <style name="Animations.PopUpMenu.Left" parent="@style/Animations.PopUpMenu">
+        <item name="android:windowEnterAnimation">@anim/grow_from_bottomleft_to_topright</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_topright_to_bottomleft</item>
+    </style>
+    <style name="Animations.PopUpMenu.Right" parent="@style/Animations.PopUpMenu">
+        <item name="android:windowEnterAnimation">@anim/grow_from_bottomright_to_topleft</item>
+        <item name="android:windowExitAnimation">@anim/shrink_from_topleft_to_bottomright</item>
+    </style>
+    <style name="AuthenticationInput">
+        <item name="android:enabled">false</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16.0dip</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+    <style name="AuthenticationCheckbox">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">16.0dip</item>
+    </style>
+    <style name="FragmentToggle">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">14.0dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scaleType">center</item>
+    </style>
+    <style name="TextAppearance">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@android:color/primary_text_dark</item>
+    </style>
+    <style name="TextAppearance.StatusBar" parent="@style/TextAppearance">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent" parent="@style/TextAppearance.StatusBar">
+        <item name="android:textSize">12.0sp</item>
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Title" parent="@style/TextAppearance.StatusBar.EventContent">
+        <item name="android:textSize">16.0sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+    <style name="TextAppearance.StatusBar.EventContent.Title.Hack" parent="@style/TextAppearance.StatusBar.EventContent.Title">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+    <style name="EmptyTitleBackground">
+        <item name="android:background">@null</item>
+    </style>
+    <style name="ActionBarContentDivider">
+        <item name="android:background">@color/actionbar_content_divider_colour</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">2.0dip</item>
+    </style>
+    <style name="LabelText">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:paddingRight">5.0dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="InputField">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="InputField.Optional" parent="@style/InputField">
+        <item name="android:hint">(Optional)</item>
+    </style>
+    <style name="TextViewSeparator">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/TextViewSeparatorColour</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">10.0dip</item>
+    </style>
+    <style name="Indicator">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="Indicator.Right" parent="@style/Indicator">
+        <item name="android:paddingLeft">3.0dip</item>
+        <item name="android:paddingRight">1.0dip</item>
+    </style>
+    <style name="Indicator.Left" parent="@style/Indicator">
+        <item name="android:paddingLeft">1.0dip</item>
+        <item name="android:paddingRight">1.0dip</item>
+    </style>
+    <style name="PasswordField">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5.0dip</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:inputType">textPassword</item>
+    </style>
+    <style name="ListItemText">
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:ellipsize">middle</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingLeft">6.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:minHeight">?android:listPreferredItemHeight</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="PasswordField.EnterPass" parent="@style/PasswordField">
+        <item name="android:layout_marginTop">10.0dip</item>
+        <item name="android:hint">Enter Password</item>
+    </style>
+    <style name="PasswordField.ConfirmPass" parent="@style/PasswordField">
+        <item name="android:hint">Confirm Password</item>
+    </style>
+    <style name="StatusBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="StatusBar.Icon" parent="@style/StatusBar">
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:layout_marginTop">8.0dip</item>
+        <item name="android:src">@drawable/andchat_notif</item>
+    </style>
+    <style name="StatusBar.Text" parent="@style/StatusBar">
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="StatusBar.Text.Top" parent="@style/StatusBar.Text">
+        <item name="android:textAppearance">@style/TextAppearance.StatusBar.EventContent.Title.Hack</item>
+        <item name="android:layout_marginLeft">4.0dip</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+        <item name="android:layout_toRightOf">@id/icon</item>
+    </style>
+    <style name="StatusBar.Text.Bottom" parent="@style/StatusBar.Text">
+        <item name="android:textAppearance">@android:style/TextAppearance.StatusBar.EventContent</item>
+        <item name="android:layout_marginLeft">12.0dip</item>
+        <item name="android:layout_marginTop">4.0dip</item>
+        <item name="android:layout_below">@id/runningmessage</item>
+    </style>
+    <style name="SetUpHeader">
+        <item name="android:textColor">@color/MessageDisplayColor</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">5.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="SetUpHeader.LargeText" parent="@style/SetUpHeader">
+        <item name="android:textSize">40.0sp</item>
+    </style>
+    <style name="SetUpInstructions">
+        <item name="android:textSize">20.0sp</item>
+        <item name="android:textColor">@color/MessageDisplayColor</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:padding">10.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="SizeSeekBar">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">5.0dip</item>
+        <item name="android:layout_marginRight">5.0dip</item>
+        <item name="android:layout_marginBottom">5.0dip</item>
+        <item name="android:max">40</item>
+    </style>
+    <style name="ServerDetailsContainer" />
+    <style name="ServerDetailsContainer.PlatformSpecific" parent="@style/ServerDetailsContainer">
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">16.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="ActionBarBottomSpacing" />
+    <style name="ActionBarBottomSpacing.PlatformSpecific" parent="@style/ActionBarBottomSpacing">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">2.0dip</item>
+    </style>
+    <style name="EquallySpacedButton" />
+    <style name="EquallySpacedButton.PlatformSpecific" parent="@style/EquallySpacedButton">
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="EquallySpacedContainer" />
+    <style name="EquallySpacedContainer.PlatformSpecific" parent="@android:style/ButtonBar">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+    <style name="Search">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_menu_search</item>
+    </style>
+    <style name="Search.PlatformSpecific" parent="@style/Search">
+        <item name="android:layout_gravity">right|center</item>
+        <item name="android:paddingRight">2.0dip</item>
+    </style>
+    <style name="MessageInput">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:inputType">textLongMessage</item>
+        <item name="android:imeOptions">actionSend</item>
+    </style>
+    <style name="MessageInput.PlatformSpecific" parent="@style/MessageInput">
+        <item name="android:paddingRight">32.0dip</item>
+    </style>
+    <style name="GalleryStyle">
+        <item name="android:paddingBottom">3.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:spacing">5.0dip</item>
+    </style>
+    <style name="GalleryStyle.PlatformSpecific" parent="@style/GalleryStyle" />
+    <style name="PlatformSpecificTheme" parent="@android:style/Theme">
+        <item name="android:windowTitleSize">@dimen/actionbar_and_divider_height</item>
+        <item name="android:windowTitleBackgroundStyle">@style/EmptyTitleBackground</item>
+    </style>
+    <style name="PlatformSpecificDialogTheme" parent="@android:style/Theme.Dialog" />
+    <style name="ChatWindowTheme" parent="@android:style/Theme.NoTitleBar" />
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="serverlist_weight_platform_specific">20</integer>
+    <integer name="chatlist_weight_platform_specific">50</integer>
+    <integer name="userlist_weight_platform_specific">30</integer>
+</resources>

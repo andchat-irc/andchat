@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="UserlistActivity_title">
+        <item quantity="other">Userlist for %1$s [%2$d users]</item>
+        <item quantity="one">Userlist for %1$s [%2$d user]</item>
+    </plurals>
+    <plurals name="added_servers_plural">
+        <item quantity="other">"
+
+Added %d servers!"</item>
+        <item quantity="one">"
+
+Added %d server!"</item>
+    </plurals>
+    <plurals name="num_servers_default_applied">
+        <item quantity="other">Updated %d server profiles</item>
+        <item quantity="one">Updated %d server profile</item>
+    </plurals>
+    <plurals name="num_servers_encrypted">
+        <item quantity="other">Encrypted %d servers</item>
+        <item quantity="one">Encrypted %d server</item>
+    </plurals>
+    <plurals name="num_servers_decrypted">
+        <item quantity="other">Decrypted %d servers</item>
+        <item quantity="one">Decrypted %d server</item>
+    </plurals>
+    <plurals name="num_users_selected">
+        <item quantity="other">%d users selected</item>
+        <item quantity="one">%d user selected</item>
+    </plurals>
+</resources>

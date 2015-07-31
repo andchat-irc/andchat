@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_add" android:id="@id/menu_new_server" android:title="@string/menu_desc_add_server" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_menu_preferences" android:id="@id/menu_settings" android:title="@string/menu_desc_settings" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_menu_filter" android:id="@id/menu_filter" android:title="@string/menu_desc_filter" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_menu_help" android:id="@id/menu_help" android:title="@string/menu_desc_help" android:showAsAction="never" />
+    <item android:icon="@drawable/ic_menu_exit" android:id="@id/menu_exit" android:title="@string/menu_desc_exit" android:showAsAction="never" />
+</menu>

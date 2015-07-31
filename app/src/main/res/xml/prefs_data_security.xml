@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/pref_title_use_encryption" android:key="@string/pref_use_encryption" android:summary="@string/pref_summary_use_encryption" />
+    <Preference android:title="@string/pref_title_encrypt_now" android:key="trigger" android:summary="@string/pref_summary_encrypt_now" android:dependency="@string/pref_use_encryption" />
+    <CheckBoxPreference android:title="@string/pref_title_prompt_password" android:key="@string/pref_pass_prompt" android:summary="@string/pref_summary_prompt_password" android:dependency="@string/pref_use_encryption" />
+</PreferenceScreen>

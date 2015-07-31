@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference android:singleLine="true" android:title="@string/pref_title_conn_timeout" android:key="@string/pref_timeout" android:summary="@string/pref_summary_conn_timeout" android:defaultValue="10" android:inputType="number" />
+    <CheckBoxPreference android:title="@string/pref_title_detect_conn_changes" android:key="@string/pref_detect_connection_changes" android:summary="@string/pref_summary_detect_conn_changes" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/pref_title_auto_reconnect" android:key="@string/pref_reconnect_automatically" android:summary="@string/pref_summary_auto_reconnect" android:defaultValue="true" />
+    <EditTextPreference android:singleLine="true" android:title="@string/pref_title_reconnect_limit" android:key="@string/pref_reconnect_limit" android:summary="@string/pref_summary_reconnect_limit" android:dependency="@string/pref_reconnect_automatically" android:defaultValue="3" android:inputType="number" />
+</PreferenceScreen>

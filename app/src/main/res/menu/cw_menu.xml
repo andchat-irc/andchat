@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_stop" android:id="@id/menu_cw_stop_reconnect" android:title="@string/menu_desc_stop_reconnecting" android:showAsAction="ifRoom" />
+    <item android:id="@id/menu_cw_connect" android:title="@string/menu_desc_connect" android:showAsAction="ifRoom" android:actionViewClass="net.andchat.donate.View.ConnectView" />
+    <item android:icon="@drawable/ic_menu_userlist" android:id="@id/menu_cw_userlist" android:visible="@bool/chatwindow_userlist_menu_button_visible" android:title="@string/menu_desc_userlist" android:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_menu_copy" android:id="@id/menu_ignore_list" android:title="@string/menu_desc_ignorelist" android:showAsAction="never" />
+    <item android:icon="@drawable/ic_menu_copy" android:id="@id/menu_copy_text" android:title="@string/menu_desc_copy_text" android:showAsAction="never" />
+    <item android:icon="@drawable/ic_menu_preferences" android:id="@id/menu_settings" android:title="@string/menu_desc_settings" android:showAsAction="never" />
+</menu>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/add_user" android:visible="@bool/userlist_menu_add_user_visible" android:title="@string/user_action_add" android:showAsAction="ifRoom" />
+    <item android:id="@id/pm" android:title="@string/user_action_msg" android:showAsAction="ifRoom" />
+    <item android:id="@id/whois" android:title="@string/user_action_whois" android:showAsAction="ifRoom" />
+    <item android:id="@id/ignore" android:title="@string/user_action_ignore" android:showAsAction="ifRoom" />
+    <item android:id="@id/op" android:title="@string/user_management_op" android:showAsAction="ifRoom" />
+    <item android:id="@id/voice" android:title="@string/user_management_voice" android:showAsAction="ifRoom" />
+    <item android:id="@id/kick" android:title="@string/user_management_kick" android:showAsAction="ifRoom" />
+    <item android:id="@id/ban" android:title="@string/user_management_ban" android:showAsAction="ifRoom" />
+    <item android:id="@id/deop" android:title="@string/user_management_deop" android:showAsAction="ifRoom" />
+    <item android:id="@id/devoice" android:title="@string/user_management_devoice" android:showAsAction="ifRoom" />
+    <item android:id="@id/hop" android:title="@string/user_management_hop" android:showAsAction="ifRoom" />
+    <item android:id="@id/dehop" android:title="@string/user_management_dehop" android:showAsAction="ifRoom" />
+    <item android:id="@id/kickban" android:title="@string/user_management_kick_ban" android:showAsAction="ifRoom" />
+</menu>

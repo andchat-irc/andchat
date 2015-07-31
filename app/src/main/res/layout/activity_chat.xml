@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/action_bar_stub" />
+    <ImageView android:id="@id/action_bar_content_divider" android:visibility="gone" android:layout_marginBottom="@dimen/divider_margin_amount" style="@style/ActionBarContentDivider" />
+    <Gallery android:id="@id/gallery" style="@style/GalleryStyle.PlatformSpecific" />
+    <View android:id="@id/space" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="15.0dip" />
+    <net.andchat.donate.View.InterceptingLinearLayout android:orientation="horizontal" android:id="@id/middle_content" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:id="@id/serverlistWrapper" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="@integer/serverlist_weight_platform_specific">
+            <include layout="@layout/channel_list_fragment" />
+        </LinearLayout>
+        <ImageView android:id="@id/channelListToggle" android:src="@drawable/arrow_right_toggle" style="@style/FragmentToggle" />
+        <ListView android:id="@id/messages_listview" android:layout_width="0.0dip" android:layout_height="fill_parent" android:divider="@null" android:dividerHeight="1.0dip" android:layout_weight="@integer/chatlist_weight_platform_specific" />
+        <ImageView android:id="@id/userlistToggle" android:src="@drawable/arrow_left_toggle" style="@style/FragmentToggle" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/userListPlaceHolder" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="@integer/userlist_weight_platform_specific">
+            <include layout="@layout/userlist_fragment" />
+        </LinearLayout>
+    </net.andchat.donate.View.InterceptingLinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/bottom_content" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/arrow_left" style="@style/Indicator.Left" />
+        <TextView android:textSize="20.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/status" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:bufferType="normal" android:textIsSelectable="false" />
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:layout_marginRight="2.0dip" android:layout_weight="1.0">
+            <net.andchat.donate.View.InterceptingEditText android:id="@id/et" style="@style/MessageInput.PlatformSpecific" />
+            <ImageView android:id="@id/search" style="@style/Search.PlatformSpecific" />
+        </FrameLayout>
+        <Button android:id="@id/send" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/send_button_text" />
+        <ImageView android:id="@id/arrow_right" style="@style/Indicator.Right" />
+    </LinearLayout>
+    <HorizontalScrollView android:layout_gravity="bottom" android:id="@id/suggest_sb" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:focusable="false" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/hideable_ll_container" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </HorizontalScrollView>
+</LinearLayout>

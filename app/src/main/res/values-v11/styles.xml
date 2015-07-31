@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ServerDetailsContainer.PlatformSpecific" parent="@style/ServerDetailsContainer">
+        <item name="android:orientation">vertical</item>
+        <item name="android:paddingTop">16.0dip</item>
+        <item name="android:paddingBottom">16.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/server_details_margin</item>
+        <item name="android:layout_marginRight">@dimen/server_details_margin</item>
+    </style>
+    <style name="ActionBarBottomSpacing.PlatformSpecific" parent="@style/ActionBarBottomSpacing">
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">0.0dip</item>
+    </style>
+    <style name="EquallySpacedButton.PlatformSpecific" parent="@android:style/Widget.Holo.Button.Borderless">
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="EquallySpacedContainer.PlatformSpecific" parent="@android:style/Holo.SegmentedButton">
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:dividerPadding">8.0dip</item>
+    </style>
+    <style name="PlatformSpecificTheme" parent="@android:style/Theme.Holo" />
+    <style name="PlatformSpecificDialogTheme" parent="@android:style/Theme.Holo.Dialog" />
+    <style name="ChatWindowTheme" parent="@android:style/Theme.Holo" />
+</resources>

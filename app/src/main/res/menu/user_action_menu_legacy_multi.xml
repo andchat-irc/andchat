@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/ignore" android:title="@string/user_action_ignore" android:showAsAction="ifRoom" />
+    <item android:id="@id/op" android:title="@string/user_management_op" android:showAsAction="ifRoom" />
+    <item android:id="@id/voice" android:title="@string/user_management_voice" android:showAsAction="ifRoom" />
+    <item android:id="@id/more" android:title="@string/user_management_more" android:showAsAction="ifRoom" />
+    <item android:id="@id/kick" android:title="@string/user_management_kick" android:showAsAction="never" />
+    <item android:id="@id/ban" android:title="@string/user_management_ban" android:showAsAction="never" />
+    <item android:id="@id/deop" android:title="@string/user_management_deop" android:showAsAction="never" />
+    <item android:id="@id/devoice" android:title="@string/user_management_devoice" android:showAsAction="never" />
+    <item android:id="@id/hop" android:title="@string/user_management_hop" android:showAsAction="never" />
+    <item android:id="@id/dehop" android:title="@string/user_management_dehop" android:showAsAction="never" />
+    <item android:id="@id/kickban" android:title="@string/user_management_kick_ban" android:showAsAction="never" />
+</menu>

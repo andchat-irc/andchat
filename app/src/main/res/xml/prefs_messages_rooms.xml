@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/pref_title_show_timestamps" android:key="@string/pref_show_timestamps" android:summary="@string/pref_summary_show_timestamps" />
+    <CheckBoxPreference android:title="@string/pref_title_skip_motd" android:key="@string/pref_skip_motd" android:summary="@string/pref_summary_skip_motd" />
+    <EditTextPreference android:singleLine="true" android:title="@string/pref_title_default_part_msg" android:key="@string/pref_part_msg" android:summary="@string/pref_summary_default_part_msg" android:defaultValue="Leaving" />
+    <EditTextPreference android:singleLine="true" android:title="@string/pref_title_default_quit_msg" android:key="@string/pref_quit_msg" android:summary="@string/pref_summary_default_quit_msg" android:defaultValue="Bye" />
+    <CheckBoxPreference android:title="@string/pref_title_rejoin_kick" android:key="@string/pref_rejoin_on_kick" android:summary="@string/pref_summary_rejoin_kick" />
+    <CheckBoxPreference android:title="@string/pref_title_hide_some_msgs" android:key="@string/pref_hide_some_messages" android:summary="@string/pref_summary_hide_some_msgs" />
+    <EditTextPreference android:singleLine="true" android:title="@string/pref_title_input_history_limit" android:key="@string/pref_typed_scrollback" android:summary="@string/pref_summary_input_history_limit" android:defaultValue="20" android:inputType="number" />
+    <CheckBoxPreference android:title="@string/pref_title_auto_cap_correct" android:key="@string/pref_auto_cap_correct" android:summary="@string/pref_summary_auto_cap_correct" android:defaultValue="true" />
+</PreferenceScreen>

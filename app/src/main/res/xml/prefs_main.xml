@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen android:title="@string/pref_screen_msgs_rooms">
+        <intent android:targetPackage="net.andchat.donate" android:action="net.andchat.donate.Prefs.Messages_Rooms" android:targetClass="net.andchat.donate.Activities.Preferences$ActionBasedPreferenceLoader" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/pref_screen_interface">
+        <intent android:targetPackage="net.andchat.donate" android:action="net.andchat.donate.Prefs.Interface" android:targetClass="net.andchat.donate.Activities.Preferences$ActionBasedPreferenceLoader" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/pref_screen_notifications">
+        <intent android:targetPackage="net.andchat.donate" android:action="net.andchat.donate.Prefs.Notifications" android:targetClass="net.andchat.donate.Activities.Preferences$ActionBasedPreferenceLoader" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/pref_screen_chat_logs">
+        <intent android:targetPackage="net.andchat.donate" android:action="net.andchat.donate.Prefs" android:targetClass="net.andchat.donate.Activities.Preferences$ChatLogs" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/pref_screen_data_backup">
+        <intent android:targetPackage="net.andchat.donate" android:action="net.andchat.donate.Prefs" android:targetClass="net.andchat.donate.Activities.Preferences$DataBackup" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/pref_screen_data_security">
+        <intent android:targetPackage="net.andchat.donate" android:action="net.andchat.donate.Prefs" android:targetClass="net.andchat.donate.Activities.Preferences$DataSecurity" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/pref_screen_connection">
+        <intent android:targetPackage="net.andchat.donate" android:action="net.andchat.donate.Prefs.Connection" android:targetClass="net.andchat.donate.Activities.Preferences$ActionBasedPreferenceLoader" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="@string/pref_screen_server_profiles">
+        <intent android:targetPackage="net.andchat.donate" android:action="net.andchat.donate.Prefs" android:targetClass="net.andchat.donate.Activities.Preferences$ServerProfiles" />
+    </PreferenceScreen>
+    <Preference android:title="@string/pref_title_first_run" android:key="first_run" />
+    <PreferenceScreen android:title="@string/pref_screen_about">
+        <intent android:targetPackage="net.andchat.donate" android:action="net.andchat.donate.Prefs" android:targetClass="net.andchat.donate.Activities.Preferences$About" />
+    </PreferenceScreen>
+    <PreferenceScreen android:title="Debugging">
+        <intent android:targetPackage="net.andchat.donate" android:action="net.andchat.donate.Prefs.DEBUG" android:targetClass="net.andchat.donate.Activities.Preferences$ActionBasedPreferenceLoader" />
+    </PreferenceScreen>
+</PreferenceScreen>

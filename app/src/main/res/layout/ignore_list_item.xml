@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textAppearance="?android:textAppearanceMedium" android:ellipsize="middle" android:id="@id/ignore_tv" android:paddingLeft="5.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:singleLine="true" android:layout_weight="90.0" />
+    <ImageView android:id="@id/ignore_edit" android:paddingRight="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_menu_edit" android:scaleType="centerCrop" />
+    <ImageView android:id="@id/ignore_delete" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_menu_delete" android:scaleType="centerCrop" />
+</LinearLayout>

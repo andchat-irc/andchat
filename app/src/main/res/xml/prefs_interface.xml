@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <net.andchat.donate.View.TextStyleDialog android:title="@string/pref_title_customize_text" android:summary="@string/pref_summary_customize_text" android:dialogTitle="@string/pref_title_customize_text" android:dialogLayout="@layout/dialog_customize_text" />
+    <CheckBoxPreference android:title="@string/pref_title_gallery_visible" android:key="@string/pref_gallery_visible" android:summary="@string/pref_summary_gallery_visible" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/pref_title_send_button_visible" android:key="@string/pref_send_button_visible" android:summary="@string/pref_summary_send_button" android:defaultValue="true" />
+    <CheckBoxPreference android:title="@string/pref_title_keep_screen_on" android:key="@string/pref_keep_screen_on" android:summary="@string/pref_summary_keep_screen_on" android:defaultValue="false" />
+    <ListPreference android:entries="@array/volume_modes_string" android:title="@string/pref_title_vol_key" android:key="@string/pref_volume_key_mode" android:summary="@string/pref_summary_vol_key" android:dialogTitle="Volume Key Action" android:entryValues="@array/volume_modes_values" />
+</PreferenceScreen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionbar_title">#ffffffff</color>
+    <color name="actionbar_background_item_pressed_start">#ffff7f00</color>
+    <color name="actionbar_background_item_pressed_end">#ffee7600</color>
+    <color name="MessageDisplayColor">#ffeeeeee</color>
+    <color name="TextViewSeparatorColour">#ff989898</color>
+    <color name="actionbar_content_divider_colour">#ff00e716</color>
+</resources>

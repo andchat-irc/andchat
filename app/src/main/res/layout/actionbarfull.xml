@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.markupartist.android.widget.ActionBar android:id="@id/actionbar" style="@style/ActionBar" />
+    <ImageView android:id="@id/action_bar_content_divider" android:layout_below="@id/actionbar" style="@style/ActionBarContentDivider" />
+</RelativeLayout>

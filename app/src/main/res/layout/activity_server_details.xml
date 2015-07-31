@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/ServerDetailsContainer.PlatformSpecific">
+        <TextView android:text="@string/server_details_title" style="@style/TextViewSeparator" />
+        <TextView android:text="@string/serv_name" style="@style/LabelText" />
+        <EditText android:id="@id/label" android:inputType="textCapSentences" style="@style/InputField" />
+        <TextView android:text="@string/serv_address" style="@style/LabelText" />
+        <EditText android:id="@id/addr" android:inputType="textNoSuggestions" style="@style/InputField" />
+        <TextView android:text="@string/serv_port" style="@style/LabelText" />
+        <EditText android:id="@id/port" android:inputType="number" style="@style/InputField.Optional" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:paddingRight="8.0dip" android:text="@string/serv_ssl" style="@style/LabelText" />
+            <CheckBox android:id="@id/ssl" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:layout_marginTop="4.0dip" android:text="@string/user_details_title" style="@style/TextViewSeparator" />
+        <TextView android:text="@string/serv_nick_1" style="@style/LabelText" />
+        <EditText android:id="@id/nick1" style="@style/InputField" />
+        <TextView android:text="@string/serv_nick_2" style="@style/LabelText" />
+        <EditText android:id="@id/nick2" style="@style/InputField.Optional" />
+        <TextView android:text="@string/serv_nick_3" style="@style/LabelText" />
+        <EditText android:id="@id/nick3" style="@style/InputField.Optional" />
+        <TextView android:text="@string/serv_username" style="@style/LabelText" />
+        <EditText android:id="@id/username" style="@style/InputField.Optional" />
+        <TextView android:text="@string/serv_real_name" style="@style/LabelText" />
+        <EditText android:id="@id/realname" style="@style/InputField.Optional" />
+        <TextView android:layout_marginTop="7.0dip" android:text="@string/other_details_title" style="@style/TextViewSeparator" />
+        <TextView android:text="@string/serv_autojoin" style="@style/LabelText" />
+        <EditText android:id="@id/autojoin" android:hint="@string/autojoin_hint" style="@style/InputField.Optional" />
+        <TextView android:text="@string/serv_autorun" style="@style/LabelText" />
+        <EditText android:id="@id/autorun" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/serv_autorun_hint" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/serv_logs_label" android:paddingRight="8.0dip" android:text="@string/serv_logs" style="@style/LabelText" />
+            <CheckBox android:id="@id/logmessages" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Button android:id="@id/enable_logging" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/serv_turn_on_logs" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="0.0dip" android:text="@string/serv_authentication" android:layout_weight="1.0" style="@style/LabelText" />
+            <Button android:id="@id/authentication" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/serv_setup_auth" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="0.0dip" android:text="@string/serv_encoding" android:layout_weight="1.0" style="@style/LabelText" />
+            <Button android:id="@id/encoding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

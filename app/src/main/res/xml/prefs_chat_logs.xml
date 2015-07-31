@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/pref_title_chat_logging" android:key="@string/pref_enable_chat_logs" android:defaultValue="false" android:summaryOn="@string/pref_summary_chat_logs_on" android:summaryOff="@string/pref_summary_chat_logs_off" />
+    <ListPreference android:entries="@array/separate_logs_by_entries" android:title="@string/pref_title_chat_logs_separator" android:key="@string/pref_separate_logs_by" android:summary="@string/pref_summary_chat_log_separator" android:dependency="@string/pref_enable_chat_logs" android:dialogTitle="Separate logs using" android:entryValues="@array/separate_logs_by_values" />
+    <Preference android:title="@string/pref_title_chat_logs_info" android:key="info" android:summary="@string/pref_summary_logs_info" />
+</PreferenceScreen>

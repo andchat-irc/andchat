@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/file_chooser_ok" android:text="@string/ok" style="@style/EquallySpacedButton.PlatformSpecific" />
+    <Button android:id="@id/file_chooser_choose" android:text="@string/choose" style="@style/EquallySpacedButton.PlatformSpecific" />
+    <Button android:id="@id/file_chooser_cancel" android:text="@string/cancel" style="@style/EquallySpacedButton.PlatformSpecific" />
+</merge>

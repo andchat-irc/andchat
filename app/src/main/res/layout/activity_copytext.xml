@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View style="@style/ActionBarBottomSpacing.PlatformSpecific" />
+    <net.andchat.donate.View.MyScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0">
+        <EditText android:textColor="@color/MessageDisplayColor" android:gravity="top|left|center" android:id="@id/et" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="textMultiLine|textNoSuggestions" />
+    </net.andchat.donate.View.MyScrollView>
+    <LinearLayout android:layout_marginTop="3.0dip" style="@style/EquallySpacedContainer.PlatformSpecific">
+        <Button android:id="@id/remove_formatting" android:text="@string/remove_formatting" style="@style/EquallySpacedButton.PlatformSpecific" />
+    </LinearLayout>
+</LinearLayout>

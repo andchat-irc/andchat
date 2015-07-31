@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="userlist_menu_add_user_visible">false</bool>
+    <bool name="autoshow_userlist">false</bool>
+    <bool name="autoshow_channel_list">false</bool>
+    <bool name="chatwindow_userlist_menu_button_visible">true</bool>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout style="@style/EquallySpacedContainer.PlatformSpecific">
+        <Button android:id="@id/prevStep" android:text="@string/btn_back" android:drawableLeft="@drawable/button_indicator_prev" style="@style/EquallySpacedButton.PlatformSpecific" />
+        <Button android:id="@id/skipStep" android:visibility="gone" android:text="@string/btn_skip" style="@style/EquallySpacedButton.PlatformSpecific" />
+        <Button android:id="@id/nextStep" android:text="@string/btn_next" android:drawableRight="@drawable/button_indicator_next" style="@style/EquallySpacedButton.PlatformSpecific" />
+    </LinearLayout>
+</merge>

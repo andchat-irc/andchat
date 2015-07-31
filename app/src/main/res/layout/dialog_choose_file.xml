@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:id="@id/file_chooser_location" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:inputType="text" />
+    <LinearLayout style="@style/EquallySpacedContainer.PlatformSpecific">
+        <include layout="@layout/chooser_buttons" />
+    </LinearLayout>
+</LinearLayout>

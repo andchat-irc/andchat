@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:icon="@drawable/ic_menu_close_clear_cancel" android:id="@id/menu_cancel_add_server" android:title="@string/menu_desc_cancel" android:showAsAction="ifRoom|withText" />
+    <item android:icon="@drawable/ic_menu_save" android:id="@id/menu_save_server" android:title="@string/menu_desc_save" android:showAsAction="ifRoom|withText" />
+    <item android:icon="@drawable/ic_menu_help" android:id="@id/menu_help" android:title="@string/menu_desc_help" android:showAsAction="ifRoom|withText" />
+</menu>

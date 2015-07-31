@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View style="@style/ActionBarBottomSpacing.PlatformSpecific" />
+    <RelativeLayout android:id="@id/userListRL" android:background="#ff242424" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <MultiAutoCompleteTextView android:id="@id/userListACTV" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/userlist_legacy_hint" android:freezesText="true" android:completionThreshold="1" />
+        <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/userListACTV" android:fastScrollEnabled="true" />
+    </RelativeLayout>
+    <LinearLayout android:id="@id/hideable_ll_container" android:visibility="gone" style="@style/EquallySpacedContainer.PlatformSpecific" />
+</LinearLayout>

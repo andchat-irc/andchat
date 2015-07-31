@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/message_text_title" style="@style/TextViewSeparator" />
+        <TextView android:textColor="@color/MessageDisplayColor" android:gravity="center_horizontal" android:id="@id/message_size_sample" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+        <SeekBar android:id="@id/message_size_seeker" style="@style/SizeSeekBar" />
+        <Spinner android:id="@id/messages_font_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <TextView android:gravity="center_horizontal" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/input_text_title" style="@style/TextViewSeparator" />
+        <net.andchat.donate.View.NoKeyboardEditText android:gravity="center_horizontal" android:id="@id/input_size_sample" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:cursorVisible="false" />
+        <SeekBar android:id="@id/input_size_seeker" style="@style/SizeSeekBar" />
+        <Spinner android:id="@id/input_font_spinner" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/userlist_text_size" />
+        <include layout="@layout/channel_list_text_size" />
+    </LinearLayout>
+</ScrollView>

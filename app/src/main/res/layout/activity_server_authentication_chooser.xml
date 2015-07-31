@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginRight="16.0dip" android:layout_weight="1.0">
+            <CheckBox android:id="@id/passwordCheckbox" android:text="@string/auth_server_password_title" style="@style/AuthenticationCheckbox" />
+            <EditText android:id="@id/passwordEntry" android:hint="@string/auth_server_password_hint" style="@style/AuthenticationInput" />
+            <CheckBox android:id="@id/nickservCheckbox" android:layout_marginLeft="16.0dip" android:text="@string/auth_nickserv_title" style="@style/AuthenticationCheckbox" />
+            <EditText android:id="@id/nickservPassword" android:hint="@string/auth_nickserv_hint" style="@style/AuthenticationInput" />
+            <CheckBox android:id="@id/saslCheckbox" android:layout_marginTop="5.0dip" android:text="@string/auth_sasl_title" style="@style/AuthenticationCheckbox" />
+            <EditText android:id="@id/saslUsername" android:hint="@string/auth_sasl_username_hint" android:inputType="text" style="@style/AuthenticationInput" />
+            <EditText android:id="@id/saslPassword" android:hint="@string/auth_sasl_password_hint" style="@style/AuthenticationInput" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="bottom" style="@style/EquallySpacedContainer.PlatformSpecific">
+            <include layout="@layout/ok_cancel_buttons" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

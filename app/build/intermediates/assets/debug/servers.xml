@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<AndChat>
+		<servers>
+			<server name="AndChat IRC" address="irc.ext3.net" autojoin="#andchat" />
+			<server name="Freenode" address="irc.freenode.org"/>
+			<server name="EFnet" address="irc.efnet.org"/>
+			<!-- <server name="IRCnet" address="irc.fu-berlin.de"/>-->
+			<server name="Undernet" address="irc.undernet.org"/>
+		</servers>
+</AndChat>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListView android:id="@android:id/list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:layout_alignParentBottom="true" style="@style/EquallySpacedContainer.PlatformSpecific">
+        <Button android:id="@id/ignore_close" android:text="@string/close" style="@style/EquallySpacedButton.PlatformSpecific" />
+        <Button android:id="@id/ignore_help" android:text="@string/help" style="@style/EquallySpacedButton.PlatformSpecific" />
+    </LinearLayout>
+    <TextView android:textColor="@color/MessageDisplayColor" android:gravity="center" android:id="@android:id/empty" android:padding="20.0sp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/empty_ignore_list_text" />
+</RelativeLayout>

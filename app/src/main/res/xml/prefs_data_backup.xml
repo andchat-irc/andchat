@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:title="@string/pref_title_export_data" android:key="export_trigger" android:summary="Save servers and settings to your external storage" />
+    <Preference android:title="@string/pref_title_import_data" android:key="import_trigger" android:summary="Add servers and settings from your external storage" />
+</PreferenceScreen>

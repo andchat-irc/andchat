@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AndChat</string>
+    <string name="default_1st_nick">AndChat</string>
+    <string name="default_2nd_nick">AndChat|</string>
+    <string name="default_3rd_nick">AndChat-</string>
+    <string name="default_realname">AndChat</string>
+    <string name="default_username">AndChat</string>
+    <string name="default_encoding">UTF-8</string>
+    <string name="default_notification_events">HI###PM###DC###</string>
+    <string name="all_notification_events">HI###PM###CN###SN###DC###</string>
+    <string name="pref_use_ssl">use_ssl</string>
+    <string name="pref_nick_pref_1">nick1</string>
+    <string name="pref_nick_pref_2">nick2</string>
+    <string name="pref_nick_pref_3">nick3</string>
+    <string name="pref_username">username</string>
+    <string name="pref_real_name">real_name</string>
+    <string name="pref_default_encoding">default_encoding</string>
+    <string name="pref_timeout">timeout</string>
+    <string name="pref_part_msg">default_part_message</string>
+    <string name="pref_quit_msg">default_quit_message</string>
+    <string name="pref_text_size">text_size</string>
+    <string name="pref_input_text_size">input_text_size</string>
+    <string name="pref_userlist_text_size">userlist_text_size</string>
+    <string name="pref_channel_list_text_size">channel_list_text_size</string>
+    <string name="pref_rejoin_on_kick">join_on_kick</string>
+    <string name="pref_reconnect_automatically">reconnect_automatically</string>
+    <string name="pref_typed_scrollback">pref_scrollback_length</string>
+    <string name="pref_skip_motd">pref_skip_motd</string>
+    <string name="pref_show_notif">pref_show_notif</string>
+    <string name="pref_show_timestamps">show_timestamps</string>
+    <string name="pref_use_encryption">use_encryption</string>
+    <string name="pref_pass_prompt">prompt_password</string>
+    <string name="pref_notif_play_sound">play_sound</string>
+    <string name="pref_notif_vibrate">notif_vibrate</string>
+    <string name="pref_hide_some_messages">hide_some_messages</string>
+    <string name="pref_extra_hilight">extra_hilight</string>
+    <string name="pref_auto_cap_correct">auto_cap_correct</string>
+    <string name="pref_detect_connection_changes">detect_connection_changes</string>
+    <string name="pref_notif_sound">notif_sound</string>
+    <string name="pref_reconnect_limit">reconnect_limit</string>
+    <string name="pref_enable_chat_logs">enable_chat_logs</string>
+    <string name="pref_separate_logs_by">separate_logs_by</string>
+    <string name="pref_notif_sound_for">notif_sound_for</string>
+    <string name="pref_notif_vibrate_for">notif_vibrate_for</string>
+    <string name="pref_notif_for">notif_for</string>
+    <string name="pref_volume_key_mode">volume_key_mode</string>
+    <string name="pref_apply_to_all">apply_to_all</string>
+    <string name="pref_unique_suffix">unique_suffix</string>
+    <string name="pref_messages_font">messages_font</string>
+    <string name="pref_input_font">input_font</string>
+    <string name="pref_userlist_font">userlist_font</string>
+    <string name="pref_channel_list_font">channel_list_font</string>
+    <string name="pref_gallery_visible">gallery_visible</string>
+    <string name="pref_send_button_visible">send_button_visible</string>
+    <string name="pref_keep_screen_on">keep_screen_on</string>
+    <string name="pref_log_raw_messages">log_raw_messages</string>
+    <string name="pref_log_unparseable">log_unparseable_messages</string>
+    <string name="pref_show_ignored_messages">show_ignored_messages</string>
+    <string name="pref_internal_change_timeout_ms_to_sec">internal_change_timeout_ms_to_sec</string>
+    <string name="pref_internal_change_hilights_separator">internal_change_hilights_separator</string>
+    <string name="pref_internal_change_volume_action_values">internal_change_volume_action_values</string>
+    <string name="pref_internal_showed_help">showed_help</string>
+    <string name="pref_internal_set_up_prompt">set_up_prompt</string>
+    <string name="pref_internal_userlist_visible">internal_userlist_visible</string>
+    <string name="pref_internal_channel_list_visible">internal_channel_list_visible</string>
+    <string name="pref_internal_shown_ui_changed_dialog">internal_shown_ui_changed_dialog</string>
+    <string name="pref_internal_userlist_op_commands_tip">userlist_op_commands_tip</string>
+    <string name="pref_internal_showed_hide_ab_tip">pref_showed_hide_ab_tip</string>
+    <string name="connection_thread_crash">Your connection to %s was stopped due to an internal error. If this is a recurring problem, please email the developer (contact@andchat.net) for help</string>
+    <string name="certificate_info_header">"**** Certificate Information ****
+"</string>
+    <string name="certificate_info_data">"Subject: %1$s
+Issuer: %2$s
+Not Before: %3$s
+Not After: %4$s
+Algorithm: %5$s"</string>
+    <string name="certificate_expired">Certificate has expired....ignoring...</string>
+    <string name="certificate_not_yet_valid">Certificate is not yet valid....ignoring...</string>
+    <string name="logs_day_changed">"
+
+**** Day changed to %s ****
+
+"</string>
+    <string name="logs_logging_start_time">"
+**** Logging started %s ****
+
+"</string>
+    <string name="starting_pm">* Starting conversation with %s</string>
+    <string name="connection_connecting_msg">Connecting to %s</string>
+    <string name="connection_reconnecting_msg">Reconnecting to %s</string>
+    <string name="reconnect_connectivity_changed">Reconnecting due to connectivity change</string>
+    <string name="no_logs">Logging disabled in Settings - not logging messages</string>
+    <string name="motd_skipped">MOTD skipped - use /MOTD to show</string>
+    <string name="giving_up_reconnects">Giving up after %d reconnect attempts</string>
+    <string name="reconnect_attempt">[%1$d] Reconnecting after %2$d seconds</string>
+    <string name="trying_sasl">Attempting SASL authentication</string>
+    <string name="trying_nickserv">Attempting NickServ authentication</string>
+    <string name="topic_changed_no_author">Topic changed to: %s</string>
+    <string name="topic_changed_have_author">Topic changed by %1$s to: %2$s</string>
+    <string name="invite_sent">* You have invited %1$s to %2$s</string>
+    <string name="invite_recv">%1$s [%2$s] has invited you to %3$s</string>
+    <string name="invite_recv_suffix">" [Tap here to join]"</string>
+    <string name="NAMES_request_response">Users on %s:</string>
+    <string name="mode_change_no_changer">Mode change [%1$s] for %2$s</string>
+    <string name="mode_change_have_changer">Mode: [%1$s] by %2$s</string>
+    <string name="user_joined">Join: %1$s [%2$s]</string>
+    <string name="user_parted_no_reason">Part: %1$s [%2$s]</string>
+    <string name="user_parted_have_reason">Part: %1$s [%2$s] [%3$s]</string>
+    <string name="got_kicked">You were kicked from %1$s by %2$s [%3$s]</string>
+    <string name="reconnecting_post_kick">**** Rejoining after 5 seconds ****</string>
+    <string name="you_kicked">You have kicked %1$s from %2$s [%3$s]</string>
+    <string name="someone_else_kicked">Kick: %1$s by %2$s [%3$s]</string>
+    <string name="user_quit">Quit: %1$s [%2$s]</string>
+    <string name="nick_changed_self">* You are now known as %1$s</string>
+    <string name="nick_changed_other">* %1$s is now known as %2$s</string>
+    <string name="CTCP_recv">Received CTCP %1$s from %2$s</string>
+    <string name="connection_killed_self">Your connection has been killed by %1$s [%2$s]</string>
+    <string name="connection_killed_other">Connection killed by %1$s [%2$s]</string>
+    <string name="current_usermodes">Current Usermodes: [%s]</string>
+    <string name="no_channel_topic">No topic set for %s</string>
+    <string name="channel_topic">Topic for %1$s: %2$s</string>
+    <string name="topic_extra_info">Topic set by %1$s [%2$s]</string>
+    <string name="channel_created_at">Channel created: %s</string>
+    <string name="channel_modes">Channel modes: [%s]</string>
+    <string name="retrying_with_nick">Retrying with %s</string>
+    <string name="all_nicks_in_use">All preferred nicks in use, use /NICK to choose another</string>
+    <string name="user_count_total">"Users: [Total: %1$d, "</string>
+    <string name="user_count_owners">"Owners: %1$d, "</string>
+    <string name="user_count_admins">"Admins: %1$d, "</string>
+    <string name="user_count_ops">"Ops: %1$d, "</string>
+    <string name="user_count_hops">"HalfOps: %1$d, "</string>
+    <string name="user_count_voices">"Voices: %1$d, "</string>
+    <string name="user_count_normal">Normal: %1$d]</string>
+    <string name="hilight_channel">Highlight in %s</string>
+    <string name="hilight_notice_direct">Notice from %s</string>
+    <string name="hilight_notice_channel">Notice in %s</string>
+    <string name="hilight_pm">Message from %s</string>
+    <string name="cannot_parse_msg">[AndChat] Unable to parse message: %s</string>
+    <string name="whats_new">• Bug fixes</string>
+    <string name="CharsetPicker_title">Pick preferred encoding</string>
+    <string name="Prefs_Main_title">AndChat Settings</string>
+    <string name="Prefs_Messages_Rooms_title">Settings - Messages &amp; Rooms</string>
+    <string name="Prefs_Interface_title">Settings - Interface</string>
+    <string name="Prefs_Notifications_title">Settings - Notifications</string>
+    <string name="Prefs_Data_Security_title">Settings - Data Security</string>
+    <string name="Prefs_Server_Profiles_title">Settings - Server Profiles</string>
+    <string name="Prefs_About_title">About AndChat</string>
+    <string name="Prefs_Chat_Logs_title">Settings - Chat Logs</string>
+    <string name="Prefs_Data_Backup_title">Settings - Data Backup</string>
+    <string name="Prefs_Connection_title">Settings - Connection</string>
+    <string name="Prefs_Debugging_title">Settings - Debugging (Use Caution!)</string>
+    <string name="Step_1_title">Welcome to AndChat!</string>
+    <string name="Step_2_title">AndChat Wizard - Step 1 of 3</string>
+    <string name="Step_3_title">AndChat Wizard - Step 2 of 3</string>
+    <string name="Step_4_title">AndChat Wizard - Step 3 of 3</string>
+    <string name="active_servers">Active Servers</string>
+    <string name="inactive_servers">Inactive Servers</string>
+    <string name="PasswordActivity_new_password">Create a new password</string>
+    <string name="PasswordActivity_enter_password">Password required</string>
+    <string name="ServerDetails_new_server">New Profile</string>
+    <string name="ServerDetails_edit_server">Editing %s</string>
+    <string name="CopyText_title">Text Copier: Text for %s</string>
+    <string name="IgnoreListActivity_title">Ignore List</string>
+    <string name="AuthPickerActivity_title">Authentication Options</string>
+    <string name="menu_desc_add_server">Add Server</string>
+    <string name="menu_desc_settings">Settings</string>
+    <string name="menu_desc_filter">Filter</string>
+    <string name="menu_desc_help">Help</string>
+    <string name="menu_desc_exit">Exit</string>
+    <string name="menu_desc_overflow">More Options</string>
+    <string name="menu_desc_stop_reconnecting">Stop Reconnecting</string>
+    <string name="menu_desc_connect">Connect</string>
+    <string name="menu_desc_userlist">Userlist</string>
+    <string name="menu_desc_disconnect">Disconnect</string>
+    <string name="menu_desc_reconnect">Reconnect</string>
+    <string name="menu_desc_reset_state">Reset</string>
+    <string name="menu_desc_delete_server">Delete</string>
+    <string name="menu_desc_edit_server">Edit</string>
+    <string name="menu_desc_save">Save</string>
+    <string name="menu_desc_cancel">Cancel</string>
+    <string name="user_management_op">Op</string>
+    <string name="user_management_voice">Voice</string>
+    <string name="user_management_kick">Kick</string>
+    <string name="user_management_deop">Deop</string>
+    <string name="user_management_devoice">Devoice</string>
+    <string name="user_management_ban">Ban</string>
+    <string name="user_management_hop">Hop</string>
+    <string name="user_management_dehop">Dehop</string>
+    <string name="user_management_kick_ban">Kick &amp; Ban</string>
+    <string name="user_management_more">More</string>
+    <string name="user_action_ignore">Ignore</string>
+    <string name="user_action_add">Add</string>
+    <string name="user_action_msg">Message</string>
+    <string name="user_action_whois">Whois</string>
+    <string name="menu_close">Close</string>
+    <string name="menu_clear">Clear Text</string>
+    <string name="menu_desc_search">Search</string>
+    <string name="menu_desc_ignorelist">Ignore List</string>
+    <string name="menu_desc_copy_text">Copy Text</string>
+    <string name="menu_desc_confirm">Confirm</string>
+    <string name="menu_desc_connecting">Connecting…</string>
+    <string name="menu_desc_disconnecting">Disconnecting…</string>
+    <string name="pref_screen_msgs_rooms">Messages &amp; Rooms</string>
+    <string name="pref_screen_interface">Interface</string>
+    <string name="pref_screen_notifications">Notifications</string>
+    <string name="pref_screen_chat_logs">Chat Logs</string>
+    <string name="pref_screen_data_backup">Data Backup</string>
+    <string name="pref_screen_data_security">Data Security</string>
+    <string name="pref_screen_connection">Connection</string>
+    <string name="pref_screen_server_profiles">Server Profiles</string>
+    <string name="pref_screen_about">About</string>
+    <string name="pref_title_about">Author</string>
+    <string name="pref_title_changelog">Changelog</string>
+    <string name="pref_title_credits">Credits</string>
+    <string name="pref_title_chat_logging">Chat logging</string>
+    <string name="pref_title_chat_logs_separator">Chat log separator</string>
+    <string name="pref_title_chat_logs_info">Logs information</string>
+    <string name="pref_title_conn_timeout">Connection timeout</string>
+    <string name="pref_title_detect_conn_changes">Detect connection changes</string>
+    <string name="pref_title_auto_reconnect">Automatically reconnect</string>
+    <string name="pref_title_reconnect_limit">Reconnect attempt limit</string>
+    <string name="pref_title_import_data">Import Data</string>
+    <string name="pref_title_export_data">Export Data</string>
+    <string name="pref_title_use_encryption">Database encryption</string>
+    <string name="pref_title_encrypt_now">Encrypt database</string>
+    <string name="pref_title_prompt_password">Require password</string>
+    <string name="pref_title_customize_text">Text Size &amp; Font</string>
+    <string name="pref_title_vol_key">Volume Key Control</string>
+    <string name="pref_title_show_timestamps">Show timestamps</string>
+    <string name="pref_title_skip_motd">Skip MOTD</string>
+    <string name="pref_title_default_part_msg">Default part message</string>
+    <string name="pref_title_default_quit_msg">Default quit message</string>
+    <string name="pref_title_rejoin_kick">Rejoin channel on kick</string>
+    <string name="pref_title_hide_some_msgs">Hide join/part/quit messages</string>
+    <string name="pref_title_auto_cap_correct">Capitalization &amp; correction</string>
+    <string name="pref_title_use_notifications">Notifications</string>
+    <string name="pref_title_extra_hilight">Extra words to highlight</string>
+    <string name="pref_title_filter_notifications">Notification events</string>
+    <string name="pref_title_notif_sound">Notification sound</string>
+    <string name="pref_title_sound_events">Events with sound</string>
+    <string name="pref_title_sound_tone">Notification ringtone</string>
+    <string name="pref_title_notif_vibrate">Notification vibration</string>
+    <string name="pref_title_vibrate_events">Events with vibration</string>
+    <string name="pref_title_preferred_nick_1">1st choice</string>
+    <string name="pref_title_preferred_nick_2">2nd choice</string>
+    <string name="pref_title_preferred_nick_3">3rd choice</string>
+    <string name="pref_title_preferred_username">Preferred username</string>
+    <string name="pref_title_preferred_realname">Preferred realname</string>
+    <string name="pref_title_preferred_ssl">SSL</string>
+    <string name="pref_title_apply_preferred">Apply preferred to profiles</string>
+    <string name="pref_title_first_run">First Run</string>
+    <string name="pref_title_input_history_limit">Input history limit</string>
+    <string name="pref_title_gallery_visible">Show chat screen tabs</string>
+    <string name="pref_title_send_button_visible">"Hide 'Send' button"</string>
+    <string name="pref_title_keep_screen_on">Keep screen on</string>
+    <string name="pref_summary_show_timestamps">Prefixes messages with timestamps</string>
+    <string name="pref_summary_skip_motd">Skips the Message of the Day on connect</string>
+    <string name="pref_summary_default_part_msg">Reason for when leaving channel</string>
+    <string name="pref_summary_default_quit_msg">Reason for when leaving server</string>
+    <string name="pref_summary_rejoin_kick">Rejoin after a 5 second delay</string>
+    <string name="pref_summary_hide_some_msgs">Hides these messages from being shown</string>
+    <string name="pref_summary_auto_cap_correct">Automatically capitalizes and corrects text</string>
+    <string name="pref_summary_vol_key">Action for volume key press</string>
+    <string name="pref_summary_extra_hilight">Separate words with commas</string>
+    <string name="pref_summary_filter_notifications">Adjust events to notify for</string>
+    <string name="pref_summary_notif_sound">Plays a sound for notifications</string>
+    <string name="pref_summary_sound_events">Notification events to play sound for</string>
+    <string name="pref_summary_sound_tone">Sound to play for notifications</string>
+    <string name="pref_summary_notif_vibrate">Vibrates for notifications</string>
+    <string name="pref_summary_vibrate_events">Notification events to vibrate for</string>
+    <string name="pref_summary_chat_logs_off">Chat logging is disabled</string>
+    <string name="pref_summary_chat_logs_on">Chat logging is enabled</string>
+    <string name="pref_summary_chat_log_separator">Describes now new logs are separated</string>
+    <string name="pref_summary_logs_info">Information about saved chat logs</string>
+    <string name="pref_summary_conn_timeout">Number of seconds to attempt a connection</string>
+    <string name="pref_summary_detect_conn_changes">Reconnect when connectivity changes</string>
+    <string name="pref_summary_auto_reconnect">Reconnect when disconnected unexpectedly</string>
+    <string name="pref_summary_reconnect_limit">Maximum number of connection attempts to make</string>
+    <string name="pref_summary_use_encryption">Encrypts password protected servers in the database</string>
+    <string name="pref_summary_encrypt_now">Encrypt password protected servers now</string>
+    <string name="pref_summary_prompt_password">Prompts for password when opening AndChat</string>
+    <string name="pref_summary_preferred_nick_2">Used if 1st choice is unavailable</string>
+    <string name="pref_summary_preferred_nick_3">Used if 2nd choice is unavailable</string>
+    <string name="pref_summary_preferred_ssl">Enable SSL by default</string>
+    <string name="pref_summary_preferred_encoding">Text encoding on servers</string>
+    <string name="pref_summary_apply_preferred">Confirmation is requested</string>
+    <string name="pref_summary_input_history_limit">Number of sent lines to remember</string>
+    <string name="pref_summary_notifications_on">Notifications are enabled</string>
+    <string name="pref_summary_notifications_off">Notifications are disabled</string>
+    <string name="pref_summary_customize_text">Customize the text style for various items</string>
+    <string name="pref_summary_gallery_visible">Hides the chat screen tabs</string>
+    <string name="pref_summary_send_button">"Hides the chat screen's Send button"</string>
+    <string name="pref_summary_keep_screen_on">Keeps the screen on while chatting</string>
+    <string name="password_save_error">"Couldn't save password"</string>
+    <string name="err_enter_password">Enter a password</string>
+    <string name="err_confirm_password">Confirm the password</string>
+    <string name="err_password_too_short">The password must be at least 5 characters</string>
+    <string name="err_password_mismatch">Make sure the passwords are the same</string>
+    <string name="pass_msg">Enter the password to %s this server:</string>
+    <string name="pass_msg_2">Enter the password to complete this action</string>
+    <string name="pass_enter_master_pass">Enter the password to continue:</string>
+    <string name="pass_wrong_pass">Wrong password</string>
+    <string name="encrypt">encrypt</string>
+    <string name="edit">edit</string>
+    <string name="connect_to">connect to</string>
+    <string name="no_servers">No Servers</string>
+    <string name="add_a_server">Add a server</string>
+    <string name="delete_serv_dialog_title">Delete %s?</string>
+    <string name="delete_serv_dialog_msg">Delete this server from list?</string>
+    <string name="disconnected_deleted_server">Disconnected from and deleted %s</string>
+    <string name="deleted_server">Deleted %s</string>
+    <string name="no_active_servers">No Active Servers</string>
+    <string name="no_inactive_servers">No Inactive Servers</string>
+    <string name="filter_servers_title">Filter Servers</string>
+    <string name="server_not_found">"Couldn't find %s in database"</string>
+    <string name="andchat_help">AndChat Help</string>
+    <string name="server_details_title">Server Details</string>
+    <string name="user_details_title">User Details</string>
+    <string name="other_details_title">Other Details</string>
+    <string name="serv_name">Name</string>
+    <string name="serv_address">Address</string>
+    <string name="serv_port">Port</string>
+    <string name="serv_ssl">SSL</string>
+    <string name="serv_nick_1">Nick 1</string>
+    <string name="serv_nick_2">Nick 2</string>
+    <string name="serv_nick_3">Nick 3</string>
+    <string name="serv_username">Username</string>
+    <string name="serv_real_name">Real Name</string>
+    <string name="serv_autojoin">Autojoin List</string>
+    <string name="autojoin_hint">\#chan1,#chan2</string>
+    <string name="serv_autorun">Autorun List</string>
+    <string name="serv_autorun_hint">(1 command per line)</string>
+    <string name="serv_encoding">Encoding</string>
+    <string name="serv_authentication">Authentication</string>
+    <string name="serv_logs">Chat Logs</string>
+    <string name="serv_turn_on_logs">Enable chat logs</string>
+    <string name="serv_setup_auth">Set up…</string>
+    <string name="serv_err_empty_name">Name cannot be empty</string>
+    <string name="serv_err_empty_addr">Address cannot be empty</string>
+    <string name="serv_err_zero_port">Port cannot be 0</string>
+    <string name="serv_err_port_negative">Port cannot be less than 0</string>
+    <string name="serv_err_port_too_high">Port cannot be more than 65535</string>
+    <string name="serv_err_port_NaN">Port must be a number</string>
+    <string name="serv_err_duplicate_label">Duplicate name - Please choose another name for this profile</string>
+    <string name="serv_err_cant_save">"Couldn't add server to database"</string>
+    <string name="server_added">Server added</string>
+    <string name="server_updated">Server updated</string>
+    <string name="serv_discard_changes">Discard unsaved changes?</string>
+    <string name="serv_discard_msg">You have unsaved changes in this profile. Discard them?</string>
+    <string name="add_server_help_title">Add Server Help</string>
+    <string name="add_server_help_details">"• Name: A name to uniquely identify the server.
+
+ • Address: The address of the server to connect to.
+
+ • Port: The server port to connect to.
+
+ • Nick1/2/3: 1st/2nd/3rd choice nickname on server.
+
+ • Username: Username to use on server.
+
+ • Real Name: Real name to use on server.
+
+ • Autojoin List: List of channels to autojoin, separated by commas without spaces.
+
+ • Autorun List: A list of commands, separated by a new line, to run on connect. This can include AndChat's commands.
+
+ • Chat Logs: Enable or disable chat logs for this server.
+
+ • Authentication: Choose how to authenticate to the server
+
+ • Encoding: Encoding (charset) to use for sending and receiving messages.
+"</string>
+    <string name="auth_server_password_title">Use server password</string>
+    <string name="auth_server_password_hint">Password</string>
+    <string name="auth_nickserv_title">Authenticate with NickServ</string>
+    <string name="auth_nickserv_hint">NickServ Password</string>
+    <string name="auth_sasl_title">Authenticate using SASL</string>
+    <string name="auth_sasl_username_hint">SASL Username</string>
+    <string name="auth_sasl_password_hint">SASL Password</string>
+    <string name="auth_err_empty_password">Password cannot be empty</string>
+    <string name="auth_err_empty_username">Username cannot be empty</string>
+    <string name="restore_formatting">Restore Formatting</string>
+    <string name="remove_formatting">Remove Formatting</string>
+    <string name="copy_text_help">"You can copy text from the text box below using the standard Android text copying mechanism. To remove all formatting (i.e. colours and clickable text such web links) use the 'Remove Formatting' button. You can restore all colours and clickable text with the same button."</string>
+    <string name="copy_text_help_title">Text Copier Help</string>
+    <string name="ignore_help_title">Ignore Help</string>
+    <string name="ignore_how_to">To ignore someone, open the Userlist and select their nickname. From the options bar, choose Ignore.</string>
+    <string name="ignore_types_title">Ignore types for %s</string>
+    <string name="empty_ignore_list_text">You do not have anyone on your ignore list. To find out how to add someone, use the Help button.</string>
+    <string name="wizard_welcome_msg">Welcome to AndChat IRC!</string>
+    <string name="wizard_click_next_advice">"Click Next to set up a few things needed to start chatting on your favourite IRC network! 
+
+If you want to run this again later, look in Settings > First Run."</string>
+    <string name="wizard_enter_defaults_advice">"Values below will be used as defaults for all new server profiles.
+If you want to change these later, look in Settings > Server Settings"</string>
+    <string name="wizard_required_settings">Required Settings</string>
+    <string name="wizard_optional_values_msg">Optional Settings</string>
+    <string name="wizard_question_add_servers">"Would you like AndChat to add some servers to get you started?
+
+(Any existing servers will not be changed)"</string>
+    <string name="adding_servers_pls_wait">"
+
+Adding servers…please wait…"</string>
+    <string name="click_next_continue">Click Next to continue.</string>
+    <string name="add_servers_error">"
+
+
+Unable to add servers, please report this error: %s"</string>
+    <string name="err_empty_field">Field cannot be empty</string>
+    <string name="finished_setup_hints">Almost finished…here are some tips to get you started:</string>
+    <string name="wiz_nick_1">Nick 1</string>
+    <string name="wiz_1st_nick_hint">Default 1st Nick</string>
+    <string name="wiz_nick_2">Nick 2</string>
+    <string name="wiz_2nd_nick_hint">Default 2nd Nick</string>
+    <string name="wiz_nick_3">Nick 3</string>
+    <string name="wiz_3rd_nick_hint">Default 3rd Nick</string>
+    <string name="wiz_username">Username</string>
+    <string name="wiz_username_hint">Default Username</string>
+    <string name="wiz_real_name">Real Name</string>
+    <string name="wiz_realname_hint">Default Realname</string>
+    <string name="wiz_encoding">Encoding</string>
+    <string name="wiz_default_encoding">UTF-8</string>
+    <string name="wiz_enable_logs">Enable Logs</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_skip">Skip</string>
+    <string name="finish">Finish</string>
+    <string name="choose_backup_title">Choose backup file…</string>
+    <string name="choose_backup_intent_picker_title">Choose backup file using…</string>
+    <string name="import_stats_title">Import Statistics</string>
+    <string name="export_stats_title">Export Statistics</string>
+    <string name="import_failed">Import failed</string>
+    <string name="export_failed">Export failed</string>
+    <string name="failure_reason_header">Failed with message:</string>
+    <string name="failure_type_header">Failure Type:</string>
+    <string name="import_stats_header">Imported:</string>
+    <string name="export_stats_header">Exported:</string>
+    <string name="import_success_restart">AndChat will reopen once you click OK for imported information to take effect.</string>
+    <string name="no_file_manager_title">No File Manager available</string>
+    <string name="no_file_manager_msg">"You need a File Manager installed to be able to choose a file.
+
+Install one from the Play Store or Internet to use this option."</string>
+    <string name="backup_servers_stats">» %1$d servers (Total: %2$d)</string>
+    <string name="backup_prefs_stats">» %1$d preferences (Total: %2$d)</string>
+    <string name="backup_crypt_stats">» %s encryption information</string>
+    <string name="backup_saved_to">» Saved to %s</string>
+    <string name="saving_data">Saving data…</string>
+    <string name="adding_data">Adding data…</string>
+    <string name="imported">Imported</string>
+    <string name="exported">Exported</string>
+    <string name="apply_defaults_title">Apply defaults to</string>
+    <string name="apply">Apply</string>
+    <string name="pref_no_changes_none_selected">No changes made (no items selected)</string>
+    <string name="pref_no_changes_no_servers">No changes made (no servers)</string>
+    <string name="all_servers_decrypting">. This will decrypt all encrypted rows</string>
+    <string name="create_master_pw_msg">Create a new password. You can then encrypt passwords via Settings. A lost password cannot be recovered!</string>
+    <string name="no_unencrypted_passwords">No unencrypted passwords found</string>
+    <string name="no_encrypted_passwords">No encrypted passwords found</string>
+    <string name="password_saved">Password saved</string>
+    <string name="logs_info_title">Chat Logs Information</string>
+    <string name="logs_folder_header">"Logs folder: "</string>
+    <string name="logs_size_header">"Folder Size: "</string>
+    <string name="logs_info_unavailable">(Information unavailable)</string>
+    <string name="external_storage_header">"External Storage State: "</string>
+    <string name="sample_msg">&lt;@AlCapwn> Hello world! (%d)</string>
+    <string name="sample_input">Hello world! (%d)</string>
+    <string name="sample_nick">&amp;AlCapwn (%d)</string>
+    <string name="sample_channel">\#andchat (%d)</string>
+    <string name="message_text_title">Message Text</string>
+    <string name="input_text_title">Input Text</string>
+    <string name="userlist_text_title">Userlist Text</string>
+    <string name="channel_list_text_title">Channel List Text</string>
+    <string name="dialog_about_title">@string/pref_title_about</string>
+    <string name="dialog_about_message">Written by Al. R&lt;br>&lt;br> • Web: &lt;a href=http://www.andchat.net>http://www.andchat.net&lt;/a>&lt;br> • Email: &lt;a href=mailto:contact@andchat.net>contact@andchat.net&lt;/a>&lt;br> • Twitter: &lt;a href=http://twitter.com/AndChat>http://twitter.com/AndChat&lt;/a>&lt;br> • Blog: &lt;a href=http://www.shiftybloke.net>http://www.shiftybloke.net&lt;/a> &lt;br></string>
+    <string name="dialog_whats_new_title">"What's new in v%s"</string>
+    <string name="dialog_changelog_title">@string/pref_title_changelog</string>
+    <string name="dialog_changelog_message">@string/whats_new</string>
+    <string name="dialog_credits_title">@string/pref_title_credits</string>
+    <string name="dialog_credits_message">Thanks to:&lt;br>&lt;br> • Umair Saad (App Icon)&lt;br> • Guillaume Laforge (&lt;a href=http://groovy.codehaus.org/api/groovy/util/CharsetToolkit.html>UTF-8 detection library&lt;/a>)&lt;br> • Lorensius W. L. T (&lt;a href=https://github.com/lorensiuswlt/NewQuickAction)>Quick Actions&lt;/a>)&lt;br> • Johan Nilsson (&lt;a href=https://github.com/johannilsson/android-actionbar>Android ActionBar&lt;/a>)&lt;br> • The Android Project (&lt;a href=https://github.com/android>GitHub Link&lt;/a>)&lt;br> • All the beta testers and people giving feedback&lt;br> • All the folks on #andchat on Ext3Net &amp;amp; Freenode!&lt;br> &lt;br> The portions of code used from the above mentioned projects are licensed under the Apache License (2.0) which can be seen in full &lt;a href=http://www.apache.org/licenses/LICENSE-2.0.html>here&lt;/a>. &lt;br></string>
+    <string name="menu_toggle_action_bar_tip">Tip: Press Menu to toggle Action Bar visibility</string>
+    <string name="stopped_reconnecting">Stopped Reconnecting</string>
+    <string name="not_connected_to_server">Not connected to Server, try Menu > Connect</string>
+    <string name="not_joined_to_channel">* Not joined to that channel, use /join</string>
+    <string name="not_in_channel">Not in a channel, use /&lt;cmd> for Server commands</string>
+    <string name="chat_whois_sent">Whois sent - check Status window</string>
+    <string name="send_button_text">Send</string>
+    <string name="dialog_UI_changed_title">Chat screen changes</string>
+    <string name="dialog_UI_changed_message">The chat interface has changed. There are now 2 panels:&lt;br>&lt;br> • One for the user list &lt;br> • One for your networks and channels&lt;br>&lt;br> You can toggle them by pressing the arrows on the side.</string>
+    <string name="userlist_legacy_hint">Start typing for suggestions</string>
+    <string name="user_tap_nick_tip">Tip: Tap a name to see Op commands!</string>
+    <string name="charset_start_typing_hint">Start typing to search</string>
+    <string name="notif_not_connected">(Not connected)</string>
+    <string name="andchat_running">AndChat is running</string>
+    <string name="ignore_syntax_header">Ignore syntax: /ignore [-a][-cnpt] nick</string>
+    <string name="ignore_syntax_data">a = ALL, c = CHANNEL, n = NOTICE, p = PM, t = CTCP</string>
+    <string name="ignore_list_header">Ignore List:</string>
+    <string name="ignore_list_empty">Ignore list is empty</string>
+    <string name="ignore_list_help_prompt">(Use /ignore -h for help)</string>
+    <string name="ignore_type_all">All messages</string>
+    <string name="ignore_type_channel_messages">channel messages</string>
+    <string name="ignore_type_ctcp_requests">CTCP requests</string>
+    <string name="ignore_type_notice_messages">notices</string>
+    <string name="ignore_type_private_messages">private messages</string>
+    <string name="ignore_added_to_list">Added %s to ignore list</string>
+    <string name="ignore_error_ignoring_self">"You can't ignore yourself"</string>
+    <string name="ignore_error_unknown_nick">%s is not on this channel</string>
+    <string name="unignore_syntax">Unignore syntax: /unignore nick</string>
+    <string name="unignore_removed_nicks">Removed %s from ignore list</string>
+    <string name="unignore_error_unknown_nick">%s is not on the ignore list</string>
+    <string name="settings_saved">Settings saved</string>
+    <string name="ok">OK</string>
+    <string name="choose">Choose…</string>
+    <string name="cancel">Cancel</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="close">Close</string>
+    <string name="help">Help</string>
+    <string name="error_dialog_title">Error</string>
+    <string name="unknown_server">Unable to find details for this server</string>
+    <string name="main_help_text_begin">• Tap the &lt;b>+&lt;/b> icon at the top to add a new server&lt;br> • Tap the &lt;b>drop down arrow&lt;/b> next to a server to edit or delete it&lt;br>&lt;br> • Use &lt;b>/join or /j&lt;/b> to join a channel&lt;br> • Use &lt;b>/part or /wc&lt;/b> to leave a channel&lt;br>&lt;br> • Use &lt;b>/msg or /m&lt;/b> to start a private conversation with someone else&lt;br>&lt;br> • &lt;b>Nick completion&lt;/b> is available via the &lt;b>Search button&lt;/b> or by using the &lt;b>tab key&lt;/b>&lt;br>&lt;br></string>
+    <string name="main_help_text_middle_current">• To view the &lt;b>UserList&lt;/b>, tap the arrow on the right of the chat screen&lt;br>&lt;br></string>
+    <string name="main_help_text_middle_legacy">• To view the &lt;b>UserList&lt;/b>, tap the &lt;b>Users&lt;/b> icon&lt;br>&lt;br></string>
+    <string name="main_help_text_end">"• To customize AndChat, tap the &lt;b>Settings&lt;/b> icon&lt;br>&lt;br> • Finally, to get help or support, visit &lt;a href=http://www.andchat.net>AndChat's website&lt;/a>, &lt;a href=mailto:contact@andchat.net>email me&lt;/a> or give me a shout on &lt;a href=http://www.twitter.com/AndChat>Twitter&lt;/a>.&lt;br>&lt;br>"</string>
+</resources>
